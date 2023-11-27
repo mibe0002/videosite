@@ -1,0 +1,35 @@
+/* 
+************* !!!GENEREL STYLES!!! **************
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+header {
+  position: relative;
+  top: 0;
+  padding: 1rem 2rem;
+  box-shadow: 0px 12px 28px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2bde9;
+  font-family: "indie_flowerregular";
+}
+
+.logo {
+  max-width: 15cqw;
+  z-index: 2;
+  border-radius: 100%;
+  margin: 30px;
+  width: auto;
+  height: auto;
+}
